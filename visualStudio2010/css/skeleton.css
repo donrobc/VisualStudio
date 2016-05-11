@@ -164,8 +164,9 @@ p {
 	text-align: center;
 	border-width: 2px;
 	border-bottom-width:2px;
-	border-bottom-color:black;
+	border-bottom-color:#47277C;
 	border-bottom-style: solid;
+	color: #47277C;
 }
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -314,7 +315,10 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #4F8EC1;
+}
 
 
 /* Code
@@ -339,14 +343,17 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 2px solid #47277C; }
 th:first-child,
 td:first-child {
   padding-left: 0; }
 th:last-child,
 td:last-child {
   padding-right: 0; }
-
+th {
+	color: #4F8EC1;
+	
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
